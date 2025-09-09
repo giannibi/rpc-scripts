@@ -2,6 +2,7 @@ name: rpc
 channels:
   - giannibi
   - conda-forge
+  - defaults
   - https://conda.anaconda.org/MOSEK
 dependencies:
   - python=3.10
