@@ -1,14 +1,22 @@
-name: rpc
+name: rpc_old
 channels:
   - giannibi
   - conda-forge
   - defaults
   - https://conda.anaconda.org/MOSEK
 dependencies:
+  - python=3.10
   - ipympl
   - ipykernel
-  - slycot
-  - dkpy
+  - slycot=0.5.4
+  - liblapack=3.9.0
+  - liblapacke=3.9.0
+  - blas=2.117
+  - blas-devel=3.9.0
+  - libblas=3.9.0
+  - libcblas=3.9.0
+  - libopenblas=0.3.23
+  - openblas=0.3.23
   - cvxpy
   - mosek
   - pmw
